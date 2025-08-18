@@ -14,7 +14,7 @@ export default function HargaDropdown() {
       {/* Tombol utama */}
       <button
         onClick={() => setOpen(!open)}
-        className="w-40 flex justify-between items-center px-4 py-2 bg-white rounded shadow-sm hover:bg-gray-100"
+        className="w-30 flex justify-between items-center px-4 py-2 bg-white rounded shadow-sm hover:bg-gray-100"
       >
         {selected}
         <span className="ml-2">▼</span>
