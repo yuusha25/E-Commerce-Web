@@ -7,17 +7,10 @@ export default function Header() {
   return (
     <header className="bg-gradient-to-r from-gray-900 via-purple-800 to-black text-white">
       {/* Top bar */}
-      <div className="hidden md:flex justify-between items-center px-6 py-3 text-sm">
-        <div className="flex space-x-4">
-          <a href="#">Seller Centre</a>
-          <a href="#">Mulai Berjualan</a>
-          <a href="#">Download</a>
-          <a href="#">Ikuti kami</a>
-        </div>
+      <div className="hidden md:flex justify-end items-center px-8 py-3 text-sm">
         <div className="flex space-x-4">
           <a href="#">Notifikasi</a>
           <a href="#">Bantuan</a>
-          <a href="#">Bahasa Indonesia ▾</a>
           <a href="#">Daftar</a>
           <a href="#">Log In</a>
         </div>
@@ -62,7 +55,7 @@ export default function Header() {
 
       {/* Mobile dropdown menu */}
       {open && (
-        <div className="md:hidden bg-gray-800 px-6 py-3 space-y-2 text-sm">
+        <div className="md:hidden bg-gray-800 px-6 my-3 space-y-2 text-sm">
           <a href="#" className="block">Pod System</a>
           <a href="#" className="block">Mod & RDA</a>
           <a href="#" className="block">Liquid Premium</a>

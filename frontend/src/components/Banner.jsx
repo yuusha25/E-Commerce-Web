@@ -6,7 +6,9 @@ import "swiper/css/pagination";
 
 export default function Highlight() {
   return (
-    <div className="my-4 px-4 w-full max-w-auto mx-auto  overflow-hidden shadow-2xl">
+    <div className="m-4">
+
+    <div className="w-full overflow-hidden">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
@@ -35,7 +37,7 @@ export default function Highlight() {
               src="https://i.ibb.co/YQnW0N2/vape-device.png"
               alt="Vape Device"
               className="rounded-xl shadow-2xl w-44 md:w-60"
-            />
+              />
           </div>
         </SwiperSlide>
 
@@ -79,10 +81,11 @@ export default function Highlight() {
               src="https://i.ibb.co/2h4SzGQ/vape-accessories.png"
               alt="Vape Accessories"
               className="rounded-xl shadow-2xl w-44 md:w-60"
-            />
+              />
           </div>
         </SwiperSlide>
       </Swiper>
     </div>
+              </div>
   );
 }
